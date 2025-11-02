@@ -17,14 +17,14 @@
 #define QAM8 4
 #define CONSTELL QAM8
 #define MIN_SNR 5.0
-#define MAX_SNR 35.0
+#define MAX_SNR 55.0
 #define STEP 0.5
 #define ONE 1
 #define ZERO 0
 #define CONSTELL_SIZE 8
 #define BITS_PER_SYM 3
 #define NUM_TX 2                                 /* No. of transmit antennas. */
-#define NUM_RX 2                                  /* No. of receive antennas. */
+#define NUM_RX 1                                  /* No. of receive antennas. */
 #define NUM_VEC 64                                  /* CONSTELL_SIZE^NUM_TX. */
 /******************************************************************************/
 FILE *fp,*fp2;
@@ -192,14 +192,14 @@ int Get_Im_16_QAM_Map()
 }
 int Get_Re_8_QAM_Map()
 {
-     Re_Map[0] = -4; Re_Map[1] = -4; Re_Map[2] = 0;  Re_Map[3] = 0;
-    Re_Map[4] = 4;  Re_Map[5] = 4;  Re_Map[6] = -2; Re_Map[7] = 2;
+     Re_Map[0] = 4; Re_Map[1] = 4; Re_Map[2] = 4;  Re_Map[3] = 0;
+    Re_Map[4] = 0;  Re_Map[5] = -4;  Re_Map[6] = -4; Re_Map[7] = -4;
     return 0;
 }
 int Get_Im_8_QAM_Map()
 {
-     Im_Map[0] = 0;  Im_Map[1] = 4;  Im_Map[2] = -4; Im_Map[3] = 4;
-    Im_Map[4] = 0;  Im_Map[5] = 4;  Im_Map[6] = -4; Im_Map[7] = -4;
+     Im_Map[0] = 4;  Im_Map[1] = 0;  Im_Map[2] = -4; Im_Map[3] = 4;
+    Im_Map[4] = -4;  Im_Map[5] = 4;  Im_Map[6] = 0; Im_Map[7] = -4;
     return 0;
 }
 

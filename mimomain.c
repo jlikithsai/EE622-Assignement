@@ -9,7 +9,7 @@
 double SNR = 5.0;
 int main()
 {
-    for (SNR  = 5.0 ; SNR<=35.0 ; SNR +=2.5)
+    for (SNR  = 5.0 ; SNR<=55.0 ; SNR +=5.0)
     {
         printf("\t Preprocessor...\n\n");
         Pre_Processor();

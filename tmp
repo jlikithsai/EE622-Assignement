@@ -1,481 +1,319 @@
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.790569.
+	 Noise variance:1.264911.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 5.000000.
 
-	 SER: 0.3836288750.
+	 SER: 0.2187831800.
 
-	 No. of vector errors is: 52391766.
+	 No. of vector errors is: 21878318.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.998134.
+	 Avg. transmit power after fade is: 23.999268.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.444570.
+	 Noise variance:0.400000.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 10.000000.
 
-	 SER: 0.2492460350.
+	 SER: 0.0879993700.
 
-	 No. of vector errors is: 34273231.
+	 No. of vector errors is: 8799937.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 20.001271.
+	 Avg. transmit power after fade is: 24.000224.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.250000.
+	 Noise variance:0.126491.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 15.000000.
 
-	 SER: 0.1381203150.
+	 SER: 0.0305538300.
 
-	 No. of vector errors is: 18960260.
+	 No. of vector errors is: 3055383.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.998971.
+	 Avg. transmit power after fade is: 24.004249.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.140585.
+	 Noise variance:0.040000.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 20.000000.
 
-	 SER: 0.0654728000.
+	 SER: 0.0099485000.
 
-	 No. of vector errors is: 8927699.
+	 No. of vector errors is: 994850.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.996428.
+	 Avg. transmit power after fade is: 23.998482.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.079057.
+	 Noise variance:0.012649.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 25.000000.
 
-	 SER: 0.0271503200.
+	 SER: 0.0031792500.
 
-	 No. of vector errors is: 3673391.
+	 No. of vector errors is: 317925.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.999023.
+	 Avg. transmit power after fade is: 24.001785.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.044457.
+	 Noise variance:0.004000.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 30.000000.
 
-	 SER: 0.0101655600.
+	 SER: 0.0010064000.
 
-	 No. of vector errors is: 1366117.
+	 No. of vector errors is: 100640.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.999679.
+	 Avg. transmit power after fade is: 24.000497.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.025000.
+	 Noise variance:0.001265.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 35.000000.
 
-	 SER: 0.0035541450.
+	 SER: 0.0003203800.
 
-	 No. of vector errors is: 475860.
+	 No. of vector errors is: 32038.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.996531.
+	 Avg. transmit power after fade is: 23.999535.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.014059.
+	 Noise variance:0.000400.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 40.000000.
 
-	 SER: 0.0011853800.
+	 SER: 0.0001027900.
 
-	 No. of vector errors is: 158222.
+	 No. of vector errors is: 10279.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 20.001010.
+	 Avg. transmit power after fade is: 23.999370.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.007906.
+	 Noise variance:0.000126.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 45.000000.
 
-	 SER: 0.0003843950.
+	 SER: 0.0000313200.
 
-	 No. of vector errors is: 51261.
+	 No. of vector errors is: 3132.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.999934.
+	 Avg. transmit power after fade is: 24.006623.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.004446.
+	 Noise variance:0.000040.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 50.000000.
 
-	 SER: 0.0001232400.
+	 SER: 0.0000102700.
 
-	 No. of vector errors is: 16463.
+	 No. of vector errors is: 1027.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 20.000038.
+	 Avg. transmit power after fade is: 24.000721.
 
 	 Preprocessor...
 
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
+	 Inx:  0 Re:+4.000000 Im:+4.000000
+	 Inx:  1 Re:+4.000000 Im:+0.000000
+	 Inx:  2 Re:+4.000000 Im:-4.000000
+	 Inx:  3 Re:+0.000000 Im:+4.000000
+	 Inx:  4 Re:+0.000000 Im:-4.000000
+	 Inx:  5 Re:-4.000000 Im:+4.000000
+	 Inx:  6 Re:-4.000000 Im:+0.000000
+	 Inx:  7 Re:-4.000000 Im:-4.000000
 
-	 Noise variance:0.002500.
+	 Noise variance:0.000013.
 
 	 Simulation...
 
 	 Postprocessor...
 
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
+	 SNR (dB): 55.000000.
 
-	 SER: 0.0000386750.
+	 SER: 0.0000031600.
 
-	 No. of vector errors is: 5190.
-
-	 Vectors transmitted:100000000
-
-	 Symbols transmitted:200000000
-
-	 Avg. transmit power after fade is: 20.000199.
-
-	 Preprocessor...
-
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
-
-	 Noise variance:0.001406.
-
-	 Simulation...
-
-	 Postprocessor...
-
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
-
-	 SER: 0.0000129300.
-
-	 No. of vector errors is: 1710.
+	 No. of vector errors is: 316.
 
 	 Vectors transmitted:100000000
 
-	 Symbols transmitted:200000000
+	 Symbols transmitted:100000000
 
-	 Avg. transmit power after fade is: 19.999710.
-
-	 Preprocessor...
-
-	 Inx:  0 Re:+1.000000 Im:+1.000000
-	 Inx:  1 Re:+3.000000 Im:+1.000000
-	 Inx:  2 Re:+3.000000 Im:+3.000000
-	 Inx:  3 Re:+1.000000 Im:+3.000000
-	 Inx:  4 Re:-1.000000 Im:+1.000000
-	 Inx:  5 Re:-1.000000 Im:+3.000000
-	 Inx:  6 Re:-3.000000 Im:+3.000000
-	 Inx:  7 Re:-3.000000 Im:+1.000000
-	 Inx:  8 Re:-1.000000 Im:-1.000000
-	 Inx:  9 Re:-3.000000 Im:-1.000000
-	 Inx: 10 Re:-3.000000 Im:-3.000000
-	 Inx: 11 Re:-1.000000 Im:-3.000000
-	 Inx: 12 Re:+1.000000 Im:-1.000000
-	 Inx: 13 Re:+1.000000 Im:-3.000000
-	 Inx: 14 Re:+3.000000 Im:-3.000000
-	 Inx: 15 Re:+3.000000 Im:-1.000000
-
-	 Noise variance:0.000791.
-
-	 Simulation...
-
-	 Postprocessor...
-
-	 16-QAM MIMO SYSTEM SIMULATION RESULTS.
-
-	 SER: 0.0000036800.
-
-	 No. of vector errors is: 488.
-
-	 Vectors transmitted:100000000
-
-	 Symbols transmitted:200000000
-
-	 Avg. transmit power after fade is: 20.001595.
+	 Avg. transmit power after fade is: 24.000815.
 

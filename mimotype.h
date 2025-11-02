@@ -10,7 +10,7 @@
 /******************************************************************************/
 /*                    SIMULATION RUN LENGTH PARAMETER.
 *******************************************************************************/
-#define MAX_VEC 1000000         /* Length of simulation run in tx. vectors. */
+#define MAX_VEC 100000000         /* Length of simulation run in tx. vectors. */
 /******************************************************************************/
 /*                         CONSTELLATION PARAMETERS.
 *******************************************************************************/
@@ -22,9 +22,9 @@
 #define CONSTELL QAM8                      /* Constellation being simulated. */
 #define BITS_PER_SYM 3                                /* Bits per tx. symbol. */
 #define CONSTELL_SIZE 8                     /* Size of output constellation. */
-#define NUM_TX 2                                 /* No. of transmit antennas. */
-#define NUM_RX 2                                  /* No. of receive antennas. */
-#define NUM_VEC 64                                  /* CONSTELL_SIZE^NUM_TX. */
+#define NUM_TX 1                                 /* No. of transmit antennas. */
+#define NUM_RX 1                                  /* No. of receive antennas. */
+#define NUM_VEC 8                                  /* CONSTELL_SIZE^NUM_TX. */
 /******************************************************************************/
 /*                  GAUSSIAN NOISE GENERATOR PARAMETERS.
 *******************************************************************************/
