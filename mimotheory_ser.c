@@ -14,17 +14,18 @@
 #define PSK8 1
 #define BPSK 2
 #define QPSK 3
-#define CONSTELL QAM16
+#define QAM8 4
+#define CONSTELL QAM8
 #define MIN_SNR 5.0
-#define MAX_SNR 35.5
+#define MAX_SNR 35.0
 #define STEP 0.5
 #define ONE 1
 #define ZERO 0
-#define CONSTELL_SIZE 16
-#define BITS_PER_SYM 4
+#define CONSTELL_SIZE 8
+#define BITS_PER_SYM 3
 #define NUM_TX 2                                 /* No. of transmit antennas. */
 #define NUM_RX 2                                  /* No. of receive antennas. */
-#define NUM_VEC 256                                  /* CONSTELL_SIZE^NUM_TX. */
+#define NUM_VEC 64                                  /* CONSTELL_SIZE^NUM_TX. */
 /******************************************************************************/
 FILE *fp,*fp2;
 double Snr;                                                     /* SNR in dB. */
@@ -52,6 +53,8 @@ int Ck_Num_Vec(void);
 int Error_Mes(int num);
 int Get_Re_16_QAM_Map(void);
 int Get_Im_16_QAM_Map(void);
+int Get_Re_8_QAM_Map(void);
+int Get_Im_8_QAM_Map(void);
 int Get_PSK_Map(void);
 int Decimal_to_M_ary(int num,int *array,int array_size,int m_ary);
 int Update_Pe_Avg(double gamma);
@@ -101,7 +104,9 @@ int Ck_Constell_Number()
   Error_Mes(2);
  else if((CONSTELL == QAM16) && (CONSTELL_SIZE != 16))
   Error_Mes(2);
- else if((CONSTELL == PSK8) && (CONSTELL_SIZE != 8))
+ else if((CONSTELL == PSK8)  && (CONSTELL_SIZE != 8))
+  Error_Mes(2);
+  else if((CONSTELL == QAM8)  && (CONSTELL_SIZE != 8))
   Error_Mes(2);
  else if((CONSTELL == QPSK) && (CONSTELL_SIZE != 4))
   Error_Mes(2);
@@ -132,6 +137,11 @@ int Get_Map()
  }
  else if((CONSTELL == PSK8) || (CONSTELL == BPSK) || (CONSTELL == QPSK))
   Get_PSK_Map();
+ else if(CONSTELL == QAM8)
+ {
+  Get_Re_8_QAM_Map();
+  Get_Im_8_QAM_Map();
+ }
  return(0);
 }
 /******************************************************************************/
@@ -180,6 +190,19 @@ int Get_Im_16_QAM_Map()
  Im_Map[15]= -1.0;
  return(0);
 }
+int Get_Re_8_QAM_Map()
+{
+     Re_Map[0] = -4; Re_Map[1] = -4; Re_Map[2] = 0;  Re_Map[3] = 0;
+    Re_Map[4] = 4;  Re_Map[5] = 4;  Re_Map[6] = -2; Re_Map[7] = 2;
+    return 0;
+}
+int Get_Im_8_QAM_Map()
+{
+     Im_Map[0] = 0;  Im_Map[1] = 4;  Im_Map[2] = -4; Im_Map[3] = 4;
+    Im_Map[4] = 0;  Im_Map[5] = 4;  Im_Map[6] = -4; Im_Map[7] = -4;
+    return 0;
+}
+
 /******************************************************************************/
 /*               Get the PSK constellation. Gray coding not done.
 *******************************************************************************/
@@ -220,6 +243,14 @@ int Open_File()
   fp=fopen("mimodata/qam16r1t2thser.dat","w");
  else if((CONSTELL == QAM16) && (NUM_RX == 2) && (NUM_TX == 2))
   fp=fopen("mimodata/qam16r2t2thser.dat","w");
+ else if ((CONSTELL == QAM8) && (NUM_RX == 1) && (NUM_TX == 1))
+  fp=fopen("mimodata/qam8r1t1thser.dat","w");
+ else if((CONSTELL == QAM8) && (NUM_RX == 2) && (NUM_TX == 1))
+  fp=fopen("mimodata/qam8r2t1thser.dat","w");
+ else if((CONSTELL == QAM8) && (NUM_RX == 1) && (NUM_TX == 2))
+  fp=fopen("mimodata/qam8r1t2thser.dat","w");
+ else if((CONSTELL == QAM8) && (NUM_RX == 2) && (NUM_TX == 2))
+  fp=fopen("mimodata/qam8r2t2thser.dat","w");
  else if((CONSTELL == PSK8) && (NUM_RX == 1) && (NUM_TX == 1))
   fp=fopen("mimodata/psk8r1t1thser.dat","w");
  else if((CONSTELL == PSK8) && (NUM_RX == 2) && (NUM_TX == 1))
@@ -267,6 +298,14 @@ int Open_Chernoff()
   fp2=fopen("mimodata/qam16r1t2chser.dat","w");
  else if((CONSTELL == QAM16) && (NUM_RX == 2) && (NUM_TX == 2))
   fp2=fopen("mimodata/qam16r2t2chser.dat","w");
+ else if ((CONSTELL == QAM8) && (NUM_RX == 1) && (NUM_TX == 1))
+    fp2=fopen("mimodata/qam8r1t1chser.dat","w");
+ else if((CONSTELL == QAM8) && (NUM_RX == 2) && (NUM_TX == 1))
+  fp2=fopen("mimodata/qam8r2t1chser.dat","w");
+ else if((CONSTELL == QAM8) && (NUM_RX == 1) && (NUM_TX == 2))
+  fp2=fopen("mimodata/qam8r1t2chser.dat","w");  
+ else if((CONSTELL == QAM8) && (NUM_RX == 2) && (NUM_TX == 2))
+    fp2=fopen("mimodata/qam8r2t2chser.dat","w");
  else if((CONSTELL == PSK8) && (NUM_RX == 1) && (NUM_TX == 1))
   fp2=fopen("mimodata/psk8r1t1chser.dat","w");
  else if((CONSTELL == PSK8) && (NUM_RX == 2) && (NUM_TX == 1))

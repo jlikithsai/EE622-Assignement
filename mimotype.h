@@ -10,7 +10,7 @@
 /******************************************************************************/
 /*                    SIMULATION RUN LENGTH PARAMETER.
 *******************************************************************************/
-#define MAX_VEC 100000000         /* Length of simulation run in tx. vectors. */
+#define MAX_VEC 1000000         /* Length of simulation run in tx. vectors. */
 /******************************************************************************/
 /*                         CONSTELLATION PARAMETERS.
 *******************************************************************************/
@@ -18,17 +18,18 @@
 #define PSK8 1                                       /* Constellation number. */
 #define BPSK 2                                       /* Constellation number. */
 #define QPSK 3                                       /* Constellation number. */
-#define CONSTELL QAM16                      /* Constellation being simulated. */
-#define BITS_PER_SYM 4                                /* Bits per tx. symbol. */
-#define CONSTELL_SIZE 16                     /* Size of output constellation. */
+#define QAM8 4
+#define CONSTELL QAM8                      /* Constellation being simulated. */
+#define BITS_PER_SYM 3                                /* Bits per tx. symbol. */
+#define CONSTELL_SIZE 8                     /* Size of output constellation. */
 #define NUM_TX 2                                 /* No. of transmit antennas. */
 #define NUM_RX 2                                  /* No. of receive antennas. */
-#define NUM_VEC 256                                  /* CONSTELL_SIZE^NUM_TX. */
+#define NUM_VEC 64                                  /* CONSTELL_SIZE^NUM_TX. */
 /******************************************************************************/
 /*                  GAUSSIAN NOISE GENERATOR PARAMETERS.
 *******************************************************************************/
 #define FADE_VAR 0.50                         /* Fade variance per dimension. */
-#define SNR 27.5                    /* Average signal-to-noise ratio per bit. */
+extern double SNR;                   /* Average signal-to-noise ratio per bit. */
 #define MAX_SNR 100.0                                   /* Max. value of SNR. */
 #define PN_SIZE 3                 /* Size of array which stores the PN value. */
 #define NVALSIZE 4

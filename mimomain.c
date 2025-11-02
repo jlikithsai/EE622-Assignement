@@ -6,14 +6,19 @@
 #include "mimotype.h"
 #include "mimoglob.h"
 /******************************************************************************/
+double SNR = 5.0;
 int main()
 {
- printf("\t Preprocessor...\n\n");
- Pre_Processor();
- printf("\t Simulation...\n\n");
- Simulation();
- printf("\t Postprocessor...\n\n");
- Post_Processor();
+    for (SNR  = 5.0 ; SNR<=35.0 ; SNR +=2.5)
+    {
+        printf("\t Preprocessor...\n\n");
+        Pre_Processor();
+        printf("\t Simulation...\n\n");
+        Simulation();
+        printf("\t Postprocessor...\n\n");
+        Post_Processor();
+    }
+ 
  return(0);
 }
 /******************************************************************************/

@@ -15,6 +15,11 @@ int Get_Map()
   Re_16_QAM();
   Im_16_QAM();
  }
+ else if ((CONSTELL == QAM8))
+ {
+  Re_8_QAM();
+  Im_8_QAM();
+ }
  else if((CONSTELL == PSK8) || (CONSTELL == BPSK) || (CONSTELL == QPSK))
   Get_PSK_Map();
  Print_Map();
@@ -66,6 +71,20 @@ int Im_16_QAM()
  Im_Map[15]= -1.0;
  return(0);
 }
+int Re_8_QAM()
+{
+    Re_Map[0] = -4; Re_Map[1] = -4; Re_Map[2] = 0;  Re_Map[3] = 0;
+    Re_Map[4] = 4;  Re_Map[5] = 4;  Re_Map[6] = -2; Re_Map[7] = 2;
+    return 0;
+}
+
+int Im_8_QAM()
+{
+    Im_Map[0] = 0;  Im_Map[1] = 4;  Im_Map[2] = -4; Im_Map[3] = 4;
+    Im_Map[4] = 0;  Im_Map[5] = 4;  Im_Map[6] = -4; Im_Map[7] = -4;
+    return 0;
+}
+
 /******************************************************************************/
 /*               Get the PSK constellation. Gray coding not done.
 *******************************************************************************/
