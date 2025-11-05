@@ -15,11 +15,17 @@ int Get_Map()
   Re_16_QAM();
   Im_16_QAM();
  }
+ /******************************************************************************/
+/*                  Modified Part Starts.
+*******************************************************************************/
  else if ((CONSTELL == QAM8))
  {
   Re_8_QAM();
   Im_8_QAM();
  }
+ /******************************************************************************/
+/*                  Modified Part Ends.
+*******************************************************************************/
  else if((CONSTELL == PSK8) || (CONSTELL == BPSK) || (CONSTELL == QPSK))
   Get_PSK_Map();
  Print_Map();
@@ -71,18 +77,25 @@ int Im_16_QAM()
  Im_Map[15]= -1.0;
  return(0);
 }
+/******************************************************************************/
+/*                  Modified Part Starts.
+*******************************************************************************/
 int Re_8_QAM()
 {
-     Re_Map[0] = 4; Re_Map[1] = 4; Re_Map[2] = 4;  Re_Map[3] = 0;
-    Re_Map[4] = 0;  Re_Map[5] = -4;  Re_Map[6] = -4; Re_Map[7] = -4;
+    Re_Map[0] =  2;  Re_Map[1] =  2;  Re_Map[2] =  2;  Re_Map[3] =  0;
+    Re_Map[4] =  0;  Re_Map[5] = -2;  Re_Map[6] = -2; Re_Map[7] = -2;
     return 0;
 }
+
 int Im_8_QAM()
 {
-     Im_Map[0] = 4;  Im_Map[1] = 0;  Im_Map[2] = -4; Im_Map[3] = 4;
-    Im_Map[4] = -4;  Im_Map[5] = 4;  Im_Map[6] = 0; Im_Map[7] = -4;
+    Im_Map[0] =  2;  Im_Map[1] =  0;  Im_Map[2] = -2;  Im_Map[3] =  2;
+    Im_Map[4] = -2;  Im_Map[5] =  2;  Im_Map[6] =  0;  Im_Map[7] = -2;
     return 0;
-}
+}\
+/******************************************************************************/
+/*                  Modified Part Ends.
+*******************************************************************************/
 
 /******************************************************************************/
 /*               Get the PSK constellation. Gray coding not done.
@@ -93,7 +106,7 @@ int Get_PSK_Map()
  double theta;
  for(cnt=ZERO;cnt<CONSTELL_SIZE;cnt++)
  {
-  theta=2.0*M_PI*(double)cnt/(double)CONSTELL_SIZE;
+  theta=2.0*MY_PI*(double)cnt/(double)CONSTELL_SIZE;
   Re_Map[cnt]=cos(theta);
   Im_Map[cnt]=sin(theta);
  }

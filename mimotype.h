@@ -22,9 +22,18 @@
 #define CONSTELL QAM8                      /* Constellation being simulated. */
 #define BITS_PER_SYM 3                                /* Bits per tx. symbol. */
 #define CONSTELL_SIZE 8                     /* Size of output constellation. */
-#define NUM_TX 1                                 /* No. of transmit antennas. */
-#define NUM_RX 1                                  /* No. of receive antennas. */
-#define NUM_VEC 8                                  /* CONSTELL_SIZE^NUM_TX. */
+#define NUM_TX 2
+#define NUM_RX 1
+#define NUM_VEC 64                                 /* CONSTELL_SIZE^NUM_TX. */
+/******************************************************************************/
+/*                  Modified Part Starts.
+*******************************************************************************/
+#define STEP 5 // Added Step For Defining the Step in Incremental SNR Growth Simulations
+#define MIN_SNR_SIM  5 // Added MIN SNR to be used for SIM
+#define MAX_SNR_SIM 55 // Added MAX SNR to be used for SIM
+/******************************************************************************/
+/*                Modified Part Ends
+*******************************************************************************/
 /******************************************************************************/
 /*                  GAUSSIAN NOISE GENERATOR PARAMETERS.
 *******************************************************************************/

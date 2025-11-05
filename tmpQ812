@@ -1,0 +1,319 @@
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.632456.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 5.000000.
+
+	 SER: 0.1535730400.
+
+	 No. of vector errors is: 15357304.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000028.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.355656.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 7.500000.
+
+	 SER: 0.0785850900.
+
+	 No. of vector errors is: 7858509.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000316.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.200000.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 10.000000.
+
+	 SER: 0.0348826900.
+
+	 No. of vector errors is: 3488269.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000883.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.112468.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 12.500000.
+
+	 SER: 0.0138164000.
+
+	 No. of vector errors is: 1381640.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 5.999939.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.063246.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 15.000000.
+
+	 SER: 0.0050217800.
+
+	 No. of vector errors is: 502178.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000652.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.035566.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 17.500000.
+
+	 SER: 0.0017284800.
+
+	 No. of vector errors is: 172848.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000083.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.020000.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 20.000000.
+
+	 SER: 0.0005701800.
+
+	 No. of vector errors is: 57018.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 5.999753.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.011247.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 22.500000.
+
+	 SER: 0.0001857100.
+
+	 No. of vector errors is: 18571.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 5.999713.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.006325.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 25.000000.
+
+	 SER: 0.0000593000.
+
+	 No. of vector errors is: 5930.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000410.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.003557.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 27.500000.
+
+	 SER: 0.0000191900.
+
+	 No. of vector errors is: 1919.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 6.000057.
+
+	 Preprocessor...
+
+	 Inx:  0 Re:+2.000000 Im:+2.000000
+	 Inx:  1 Re:+2.000000 Im:+0.000000
+	 Inx:  2 Re:+2.000000 Im:-2.000000
+	 Inx:  3 Re:+0.000000 Im:+2.000000
+	 Inx:  4 Re:+0.000000 Im:-2.000000
+	 Inx:  5 Re:-2.000000 Im:+2.000000
+	 Inx:  6 Re:-2.000000 Im:+0.000000
+	 Inx:  7 Re:-2.000000 Im:-2.000000
+
+	 Noise variance:0.002000.
+
+	 Simulation...
+
+	 Postprocessor...
+
+	 SNR (dB): 30.000000.
+
+	 SER: 0.0000059600.
+
+	 No. of vector errors is: 596.
+
+	 Vectors transmitted:100000000
+
+	 Symbols transmitted:100000000
+
+	 Avg. transmit power after fade is: 5.999581.
+

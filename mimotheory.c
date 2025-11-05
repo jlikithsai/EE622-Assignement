@@ -189,7 +189,7 @@ int Get_PSK_Map()
  double theta;
  for(cnt=ZERO;cnt<CONSTELL_SIZE;cnt++)
  {
-  theta=2.0*M_PI*(double)cnt/(double)CONSTELL_SIZE;
+  theta=2.0*MY_PI*(double)cnt/(double)CONSTELL_SIZE;
   Re_Map[cnt]=cos(theta);
   Im_Map[cnt]=sin(theta);
  }
